@@ -1,19 +1,10 @@
 package com.example.cuestionariorestaurantes.entities;
 
-public class Usuarios {
-    private int id;
+public class Registros {
     private String nombre;
     private String correo;
     private String telefono;
     private String contraseña;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNombre() {
         return nombre;

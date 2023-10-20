@@ -13,8 +13,17 @@
         android:theme="@style/Theme.CuestionarioRestaurantes"
         tools:targetApi="31">
         <activity
-            android:name=".RegistroUsuarios"
+            android:name=".VerActivity"
             android:exported="false" />
+        <activity
+            android:name=".RegistroUsuarios"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"></activity>
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
